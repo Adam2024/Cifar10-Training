@@ -12,7 +12,7 @@ This experiment is the first experiment of artificial intelligence security, usi
 In this process, I first tried to use ResNet18, but the correct rate was always around 80%. Later, I tried VGG16 and it was still the same. Finally, I checked the training and test loss graphs to find the problem. The training epoch was too small, so I adjusted the epoch to 200, which is accurate. The rate can reach 93%.
 
 ## Start the train 
-python main.py 
+python train.py 
 
 ## Accuracy
 | Model             | Acc.        |
